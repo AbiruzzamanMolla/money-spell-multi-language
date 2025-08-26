@@ -1,8 +1,8 @@
 # Spell Money (Multilingual)
 
-[![Latest Stable Version](https://poser.pugx.org/azmolla/spell-money/v)](https://packagist.org/packages/azmolla/spell-money)
-[![License](https://poser.pugx.org/azmolla/spell-money/license)](https://packagist.org/packages/azmolla/spell-money)
-[![PHP Version Require](https://poser.pugx.org/azmolla/spell-money/require/php)](https://packagist.org/packages/azmolla/spell-money)
+[![Latest Stable Version](https://poser.pugx.org/azmolla/spell-money-multilang/v)](https://packagist.org/packages/azmolla/spell-money-multilang)
+[![License](https://poser.pugx.org/azmolla/spell-money-multilang/license)](https://packagist.org/packages/azmolla/spell-money-multilang)
+[![PHP Version Require](https://poser.pugx.org/azmolla/spell-money-multilang/require/php)](https://packagist.org/packages/azmolla/spell-money-multilang)
 [![Tests](https://github.com/AbiruzzamanMolla/money-spell-multi-language/actions/workflows/tests.yml/badge.svg)](https://github.com/AbiruzzamanMolla/money-spell-multi-language/actions)
 
 Convert numbers into words for money amounts across multiple languages.
@@ -16,7 +16,7 @@ Designed to be easily extendable so you can add new languages.
 Install via Composer:
 
 ```bash
-composer require azmolla/spell-money
+composer require azmolla/spell-money-multilang
 ```
 
 ---
