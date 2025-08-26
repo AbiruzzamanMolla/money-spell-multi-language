@@ -18,13 +18,13 @@
             "homepage": "https://github.com/AbiruzzamanMolla"
         }
     ],
-    "homepage": "https://github.com/AbiruzzamanMolla/maintenance-mode-laravel",
+    "homepage": "https://github.com/AbiruzzamanMolla/money-spell-multi-language",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AbiruzzamanMolla/maintenance-mode-laravel.git"
+        "url": "https://github.com/AbiruzzamanMolla/money-spell-multi-language.git"
     },
     "bugs": {
-        "url": "https://github.com/AbiruzzamanMolla/maintenance-mode-laravel/issues"
+        "url": "https://github.com/AbiruzzamanMolla/money-spell-multi-language/issues"
     },
     "autoload": {
         "psr-4": {
