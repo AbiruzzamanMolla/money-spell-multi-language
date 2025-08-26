@@ -1,14 +1,23 @@
 {
     "name": "azmolla/spell-money-multilang",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert numbers to words for money in Bangla, English, Hindi, Chinese, Thai, and Arabic. Extensible to any language.",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "laravel",
-        "maintenance",
-        "mode",
-        "database"
+        "php",
+        "money",
+        "numbers",
+        "spell",
+        "words",
+        "multilanguage",
+        "bangla",
+        "english",
+        "hindi",
+        "arabic",
+        "thai",
+        "chinese",
+        "library"
     ],
     "authors": [
         {
