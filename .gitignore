@@ -1,0 +1,23 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock (optional)
+composer.lock
+
+# PHPStorm / VSCode / IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHPUnit / Test cache
+.phpunit.result.cache
+
+# Temporary files
+*.log
+*.tmp
+*.swp
