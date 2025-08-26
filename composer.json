@@ -31,6 +31,12 @@
         "issues": "https://github.com/AbiruzzamanMolla/money-spell-multi-language/issues",
         "source": "https://github.com/AbiruzzamanMolla/money-spell-multi-language"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.pkg.github.com/AbiruzzamanMolla"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "AzMolla\\SpellMoney\\": "src/"

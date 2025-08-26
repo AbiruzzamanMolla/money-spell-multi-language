@@ -1,0 +1,24 @@
+name: Publish Package
+
+on:
+  push:
+    tags:
+      - '*.*.*'   # triggers on version tags like 1.0.1
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.1
+
+      - name: Authenticate to GitHub Packages
+        run: composer config --global github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to GitHub Packages
+        run: composer publish
