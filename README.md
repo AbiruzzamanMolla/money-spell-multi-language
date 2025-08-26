@@ -189,7 +189,3 @@ See `.github/workflows/tests.yml`.
 ## License
 
 MIT © [Abiruzzaman Molla](https://github.com/AbiruzzamanMolla)
-
----
-
-⚡ With this README + your `composer.json`, your package will look professional and contributor-friendly on Packagist.
