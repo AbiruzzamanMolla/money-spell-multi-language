@@ -1,9 +1,6 @@
 # Composer dependencies
 /vendor/
 
-# Composer lock (optional)
-composer.lock
-
 # PHPStorm / VSCode / IDE files
 .idea/
 .vscode/
