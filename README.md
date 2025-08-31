@@ -63,6 +63,16 @@ echo $spell->spell("١٢٣٤٥.٥٠");
 // اثنا عشر ألف ثلاثمائة خمسة وأربعون جنيه خمسون قرش
 ```
 
+### or
+
+```php
+
+use AzMolla\SpellMoney\SpellMoney;
+use AzMolla\SpellMoney\Languages\Bangla;
+
+SpellMoney::convert("12345.50", new Bangla());
+```
+
 ---
 
 ## Supported Numeral Systems

@@ -34,4 +34,12 @@ class SpellMoney
         }
         return trim($words);
     }
+
+    /**
+     * @param $number
+     */
+    public static function convert($number, ?LanguageInterface $language = null): string
+    {
+        return (new SpellMoney($language))->spell($number);
+    }
 }

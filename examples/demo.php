@@ -25,3 +25,5 @@ foreach ($amounts as $lang => $data) {
     $spell = new SpellMoney(new $data["cls"]());
     echo "[$lang] " . $spell->spell($data["num"]) . PHP_EOL;
 }
+
+echo SpellMoney::convert("12345.50", new Bangla()) . PHP_EOL;
