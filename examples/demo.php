@@ -12,13 +12,14 @@ use AzMolla\SpellMoney\Languages\Thai;
 use AzMolla\SpellMoney\SpellMoney;
 
 $amounts = [
-    "Bangla"   => ["cls" => Bangla::class, "num" => "১২৩৪৫৫.৫০"],
-    "English"  => ["cls" => English::class, "num" => "12345.50"],
-    "Hindi"    => ["cls" => Hindi::class, "num" => "१२३४५.५०"],
-    "Chinese"  => ["cls" => Chinese::class, "num" => "１２３４５.５０"],
-    "Thai"     => ["cls" => Thai::class, "num" => "๑๒๓๔๕.๕๐"],
-    "Arabic"   => ["cls" => Arabic::class, "num" => "١٢٣٤٥.٥٠"],
-    "Japanese" => ["cls" => Japanese::class, "num" => "12345.50"],
+    "Bangla small"   => ["cls" => Bangla::class, "num" => "৫"],
+    "Bangla medium"  => ["cls" => Bangla::class, "num" => "১২৩৪৫৫.৫০"],
+    "Bangla large"   => ["cls" => Bangla::class, "num" => "৯৯৯৯৯৯৯৯৯৯৯.৯৯"],
+    "English"        => ["cls" => English::class, "num" => "12345.50"],
+    "Hindi"          => ["cls" => Hindi::class, "num" => "१२३४५.५०"],
+    "Chinese"        => ["cls" => Chinese::class, "num" => "１２３４５.５０"],
+    "Thai"           => ["cls" => Thai::class, "num" => "๑๒๓๔๕.๕๐"],
+    "Arabic"         => ["cls" => Arabic::class, "num" => "١٢٣٤٥.٥٠"],
 ];
 
 foreach ($amounts as $lang => $data) {
@@ -26,4 +27,5 @@ foreach ($amounts as $lang => $data) {
     echo "[$lang] " . $spell->spell($data["num"]) . PHP_EOL;
 }
 
-echo SpellMoney::convert("১২৩৪৫৫.৫০", new Bangla()) . PHP_EOL;
+// Extra direct test for Bangla with static convert method
+echo "[Bangla convert] " . SpellMoney::convert("১২৩৪৫৫.৫০", new Bangla()) . PHP_EOL;
