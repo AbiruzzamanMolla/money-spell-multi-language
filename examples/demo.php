@@ -12,7 +12,7 @@ use AzMolla\SpellMoney\Languages\Thai;
 use AzMolla\SpellMoney\SpellMoney;
 
 $amounts = [
-    "Bangla"   => ["cls" => Bangla::class, "num" => "১২৩৪৫.৫০"],
+    "Bangla"   => ["cls" => Bangla::class, "num" => "১২৩৪৫৫.৫০"],
     "English"  => ["cls" => English::class, "num" => "12345.50"],
     "Hindi"    => ["cls" => Hindi::class, "num" => "१२३४५.५०"],
     "Chinese"  => ["cls" => Chinese::class, "num" => "１２３４５.５０"],
@@ -26,4 +26,4 @@ foreach ($amounts as $lang => $data) {
     echo "[$lang] " . $spell->spell($data["num"]) . PHP_EOL;
 }
 
-echo SpellMoney::convert("12345.50", new Bangla()) . PHP_EOL;
+echo SpellMoney::convert("১২৩৪৫৫.৫০", new Bangla()) . PHP_EOL;
